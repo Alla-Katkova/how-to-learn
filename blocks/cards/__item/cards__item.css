@@ -1,0 +1,17 @@
+.cards__item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-basis: min-content;
+}
+
+.cards__item:nth-of-type(1),
+.cards__item:nth-of-type(2),
+.cards__item:nth-of-type(4) {
+    padding-right: 100px;
+}
+
+.cards__item:nth-of-type(1),
+.cards__item:nth-of-type(2) {
+    padding-bottom: 60px;
+}
